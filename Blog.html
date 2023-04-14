@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>wild reserve</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body{
+                margin:0;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+            }
+            header{
+                height: 100px;
+                position: fixed;
+                background: whitesmoke;
+                width: 100%;
+            }
+            .logo{
+                float:left;
+                margin-left:10%;
+            }
+            .logo a {
+                color: #000;;
+                font-size: 30px;
+                margin-top: 25px; ;
+                display: block;
+                text-decoration: none;
+            }
+            .menu {
+                float:right;
+                margin-right: 10%;
+                margin-top: 35px;
+            }
+            .menu ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .menu ul li {
+                float:left;
+            }
+            .menu ul li a {
+                color:#111;
+                text-decoration: none;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            h1{
+                margin-top: 30px;
+                margin-left: 300px;
+                font-size: 60px;
+                font-family: 'karla',sans serif;
+                font-weight: lighter;
+            }
+            .slider-frame{
+                overflow: hidden;
+                height:600px;
+                width: 1200px;
+                margin: auto;
+                margin-left: 300px;
+                margin-top: 25px;
+            }
+                 /*------slide animation------*/
+            @-webkit-keyframes slide_animation{
+                0% {left: 0px;}
+                10% {left: 0px;}
+                20% {left: 1200px;}
+                30% {left: 1200px;}
+                40% {left: 2400px;}
+                50% {left: 2400px;}
+                60% {left: 1200px;}
+                70% {left: 1200px;}
+                80% {left: 0px;}
+                90% {left: 0px;}
+                100% {left: 0px;}
+            }
+            .slide-images{
+                width: 3600px;
+                height: 500px;
+                margin: 0 0 0 -2400px;
+                position: relative;
+                -webkit-animation-name: slide_animation;
+                -webkit-animation-duration: 33s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-direction: alternate;
+                -webkit-animation-play-state: running;
+            }
+            .img-container{
+                height: 500px;
+                width: 1200px;
+                position: relative;
+                float:left;
+            }
+            .center{
+                width:80%;
+                margin:auto;
+                text-align:center;
+                padding-top:70px;
+                background-color:;
+            }
+            .hunt{
+                margin-left: 20px;
+            }
+            .hunt ul{
+                margin-left: 20px;
+            }
+            .come{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 50px;
+            }
+            .container{
+                position: relative;
+                min-height: 100vh;
+               /* background: #ddd;*/
+            }
+            .container .image-container{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: center;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               <a href="#"><b>ZONDELA</b><br>exclusive wild reserve</a>
+            </div><!--logo-->
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Blog.html">BlOG</a></li> 
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contacts.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--MENU-->
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>REMARKABLE HUNTING</h1>
+        <div class="slide-frame">
+             <div class="slide-images">
+                 <div class="img-container">
+                     <img src="photos/huning2.jpg">
+                 </div>
+                 <div class="img-container">
+                    <img src="photos/goat.jpg">
+                </div>
+                <div class="img-container">
+                    <img src="photos/hunting3.jpg">
+                </div>
+             </div>
+        </div>
+        <br>
+        <br>
+        <div class="center">
+            <h2>our apologies</h2>
+            <p>we are fully booked for the 2022 hunting season</p>
+        </div>
+        <br>
+        <div class="hunt">
+            <h2>hunt at ZONDELA</h2>
+            <br>
+            <p>
+                
+ZONDELA offers its guests a large collection of animals to hunt, making this Reserve the ultimate hunting destination.  We are committed to providing our guests with a variety of hunting opportunities and cater for both trophy and biltong hunters with emphasis on the sustainable utilization of our natural resources and the conservation of our wildlife.   Dedicated hunting areas will be demarcated on the Reserve and all hunters will be accompanied by a resident PH.
+            </p>
+            <br>
+            <p>hunting facilities include the following:</p>
+            <ul>
+                <li>Hunting vehicle</li>
+                <li>Recovery vehicle</li>
+                <li>Cold room</li>
+                <li>Butchery</li>
+            </ul>
+        </div>
+        </div>
+        <section class="come">
+            <h2>hunting species</h2>
+            <P>The following species are available for hunting</P>
+        </section>    
+            <div class="container">
+                 <div class="image-container">
+                     
+                     
+                     <div class="image"><img src="photos/hseason3.jpg" alt=""></div>
+                     <div class="image"><img src="photos/hseason4.jpg" alt=""></div>
+                     <div class="image"><img src="photos/bird.jpg" alt=""></div>
+                     <div class="image"><img src="photos/hseason7.jpg" alt=""></div>
+                     <div class="image"><img src="photos/hseason8.jpg" alt=""></div>
+                     <div class="image"><img src="photos/nyamazan.jpg" alt=""></div>
+                 </div>
+            </div>    
+        <br>
+        <br>
+        <br>
+        <!--</p>--->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="container">
+                <div class="about "> 
+                    <h3>ABOUT US</h3>
+                    <P>
+                        ZONDELA is an eco-friendly family Reserve where guests can feel part of nature whilst experiencing the freedom and lifestyle of a truly natural environment.  All efforts made by the Reserve are to limit the impact on the area and its resources.  Our philosophy is strongly based on the foundation of sustainability, nature conservation, and the serenity that comes from being in nature.
+                    </P>
+                </div>
+                <div class="services ">
+                   <h3> SERVICES</h3>
+                   <h4>we have the following:</h4>
+                <ul>
+                    <li><a href="#">mountain biking</a></li>
+                    <li><a href="#">long range shooting</a></li>
+                    <li><a href="#">fishing</a></li>
+                    <li><a href="#">hunting</a></li>
+                    <li><a href="#">camping</a></li>
+                    <li><a href="#">offroading</a></li>
+                </ul>
+                   <p></p>
+                </div>
+                <div class="contact">
+                   <h3>CONTACT US</h3>
+                   <p>Please feel free to give us a call or pop us an email</p>
+                   <ul>
+                       <li><a>address:Berea, Lesotho</a></li>
+                       <li><a>phone:+266 28 02 1656</a></li>
+                       <li><a>email:info@ZONDELA.com</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>@copyright 2022|All rights reserved|website by T.SEPIRITI</p>
+            </div>
+        </footer>
+</body>
+</html>            

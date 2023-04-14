@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>wild reserve</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body{
+                margin:0;
+                padding: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+            }
+            header{
+                height: 100px;
+                position: fixed;
+                background: whitesmoke;
+                width: 100%;
+            }
+            .logo{
+                float:left;
+                margin-left:10%;
+            }
+            .logo a {
+                color: #000;;
+                font-size: 30px;
+                margin-top: 25px; ;
+                display: block;
+                text-decoration: none;
+            }
+            .menu {
+                float:right;
+                margin-right: 10%;
+                margin-top: 35px;
+            }
+            .menu ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .menu ul li {
+                float:left;
+            }
+            .menu ul li a {
+                color:#111;
+                text-decoration: none;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .menu li:hover{
+                background-color: blue;
+                color: #fff ;
+
+            }
+            img{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /*
+            .slider-frame{
+                overflow: hidden;  
+                margin-top: 40px; 
+            }
+            /*------slide animation------
+            @-webkit-keyframes slide_animation{
+                0% {left: 0px;}
+                10% {left: 0px;}
+                20% {left: 1200px;}
+                30% {left: 1200px;}
+                40% {left: 2400px;}
+                50% {left: 2400px;}
+                60% {left: 1200px;}
+                70% {left: 1200px;}
+                80% {left: 0px;}
+                90% {left: 0px;}
+                100% {left: 0px;}
+            }
+            .slide-images{
+                width: 3600px;
+                height: 500px;
+                margin: 0 0 0 -2400px;
+                position: relative;
+                -webkit-animation-name: slide_animation;
+                -webkit-animation-duration: 33s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-direction: alternate;
+                -webkit-animation-play-state: running;
+            }
+            .img-container{
+                height: 500px;
+                width: 1200px;
+                position: relative;
+                float:left;
+            }
+            ------*/
+            .center {
+                width: 100%;
+                height:90vh;
+                background: url(photos/addo1.jpg);
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color:#fff;
+                font-size:2vw;
+            }
+                /*
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 18px;
+                color: rgb(38, 0, 255);
+            }*/
+            .welcome{
+                width:80%;
+                margin:auto;
+                text-align:center;
+                padding-top:70px;
+            }
+            .come{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               <a href="#"><b>ZONDELA</b><br>exclusive wild reserve</a>
+            </div><!--logo-->
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Blog.html">BlOG</a></li> 
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contacts.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--MENU-->
+        </header>
+        <!-----
+        <div class="slider-frame">
+            <div class="slide-images">
+                <div class="img-container">
+                    <img src="photos/addo1.jpg" style="width:90%">
+                </div>
+            </div>
+        </div>--->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+            
+            <div class="center">
+                <h1>OUTDOOR ADVENTURE</h1>
+                <p>An eco-friendly family Reserve <br>where guests can feel part of nature whilst experiencing<br> the freedom and lifestyle of a truly natural environment.</p>
+            </div>
+            <section class="welcome">
+                 <h2>WELCOME TO ZONDELA WILDLIFE PARK</h2>
+                 <p>TRANQUILITY   -  NATURE   - LIFE</p>
+                 <br>
+                 <p> ZONDELA Wildlife is the perfect place for a getaway.<br> Experience a sense of tranquility whether it’s in our pristine accommodation, a meal at Tangelo Restaurant or shopping in our farmstall.<br> Take a glimpse into the rich diversity of life in our wildlife center or enjoy a close encounter with many local animal species on a game drive.<br> Whether it’s just the two of you or a family, be entertained by the surroundings of our park.</p>
+            </section>
+            <section class="come">
+                <h2>COME AND EXPERIENCE TRUE RELAXATION</h2>
+                <P>Diversity in its truest sense</P>
+                <div class="row">
+                    <div class="column">
+                      <img src="photos/accommodation-35.jpg">
+                        <h3>ACCOMODATION</h3>
+                        <p>Sleep in the wild in our self-catering 4 star graded rooms. Enjoy a swim in our pool or a quiet fire right at your doorstep while enjoying here's perfect weather.</p>
+                        <a href="#" class="btn">READ MORE</a>
+                    </div>
+                    <div class="column">
+                      <img src="photos/res1.jpg">
+                      <h3>RESTURANT</h3>
+                      <p>Restaurant open 7 days a week 7:30am till 22:00
+                        Farmstall open 7 days a week from 7:30am till 22:00</p>
+                      <a href="#" class="btn">READ MORE</a>
+                    </div>
+                    <div class="column">
+                      <img src="photos/wildlife1.jpg">
+                      <h3>WILDLIFE</h3>
+                      <p>Open 7 days a week from 8:00 am to 17:00.e, Corn Snake , California, King Snake, Yellow Anaconda’s</p>
+                      <a href="#" class="btn">READ MORE</a>
+                    </div>
+               </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <footer>
+                <div class="container">
+                    <div class="about "> 
+                        <h3>ABOUT US</h3>
+                        <P>
+                            ZONDELA is an eco-friendly family Reserve where guests can feel part of nature whilst experiencing the freedom and lifestyle of a truly natural environment.  All efforts made by the Reserve are to limit the impact on the area and its resources.  Our philosophy is strongly based on the foundation of sustainability, nature conservation, and the serenity that comes from being in nature.
+                        </P>
+                    </div>
+                    <div class="services ">
+                       <h3> SERVICES</h3>
+                       <h4>we have the following:</h4>
+                    <ul>
+                        <li><a href="#">mountain biking</a></li>
+                        <li><a href="#">long range shooting</a></li>
+                        <li><a href="#">fishing</a></li>
+                        <li><a href="#">hunting</a></li>
+                        <li><a href="#">camping</a></li>
+                        <li><a href="#">offroading</a></li>
+                    </ul>
+                       <p></p>
+                    </div>
+                    <div class="contact">
+                       <h3>CONTACT US</h3>
+                       <p>Please feel free to give us a call or pop us an email</p>
+                       <ul>
+                           <li><a>address:Berea, Lesotho</a></li>
+                           <li><a>phone:+266 28 02 1656</a></li>
+                           <li><a>email:info@ZONDELA.com</a></li>
+                       </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>@copyright 2022|All rights reserved|website by T.SEPIRITI</p>
+                </div>
+            </footer>
+    </body>
+</html>            
